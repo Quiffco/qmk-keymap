@@ -1,3 +1,4 @@
 COMBO_ENABLE = yes
 MOUSEKEY_ENABLE = yes
-VPATH += keyboards/gboards/
+DYNAMIC_TAPPING_TERM_ENABLE = yes
+#VPATH += keyboards/gboards/
