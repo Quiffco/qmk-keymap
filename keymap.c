@@ -38,7 +38,7 @@ const uint16_t PROGMEM zslsh_combo[] = {KC_Z, KC_ENT, COMBO_END};
 combo_t key_combos[] = {
     COMBO(qw_combo, KC_ESC),
     COMBO(op_combo, KC_PSCR),
-    COMBO(ty_combo, TO(3)),
+    COMBO(ty_combo, TG(3)),
     COMBO(gh_combo, TO(2)),
     COMBO(bn_combo, TO(1)),
     COMBO(bkspcspc_combo, TO(0)),
