@@ -20,17 +20,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	                            KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
 
 	[3] = LAYOUT_split_3x5_2(
-	KC_TRNS, KC_TRNS, KC_TRNS, LT(1,KC_R), KC_TRNS,                KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-	KC_A, KC_S, KC_D, KC_F, KC_G,                KC_H, KC_J, KC_K, KC_L, KC_TRNS,
+	KC_TRNS, KC_TRNS, KC_TRNS, LT(1,KC_R), KC_TRNS,             KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+	KC_A, KC_S, KC_D, KC_F, KC_G,                				KC_H, KC_J, KC_K, KC_L, KC_TRNS,
 	KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 	                            KC_GRV, KC_BSPC, KC_SPC, KC_TAB),
 
 };
 
 const uint16_t PROGMEM qw_combo[] = {KC_Q, KC_W, COMBO_END};
-const uint16_t PROGMEM op_combo[] = {KC_O, KC_P, COMBO_END};
+const uint16_t PROGMEM op_combo[] = {KC_I, KC_O, KC_P, COMBO_END};
 const uint16_t PROGMEM ty_combo[] = {KC_T, KC_Y, COMBO_END};
-const uint16_t PROGMEM gh_combo[] = {LT(2,KC_G),LT(1,KC_H), COMBO_END};
 const uint16_t PROGMEM bn_combo[] = {KC_B, KC_N, COMBO_END};
 const uint16_t PROGMEM bkspcspc_combo[] = {LT(1,KC_BSPC),  LT(2,KC_SPC), COMBO_END};
 const uint16_t PROGMEM xcv_combo[] = {KC_X, KC_C, KC_V, COMBO_END};
@@ -39,8 +38,6 @@ combo_t key_combos[] = {
     COMBO(qw_combo, KC_ESC),
     COMBO(op_combo, KC_PSCR),
     COMBO(ty_combo, TG(3)),
-    COMBO(gh_combo, TO(2)),
-    COMBO(bn_combo, TO(1)),
     COMBO(bkspcspc_combo, TO(0)),
     COMBO(xcv_combo, KC_MPLY),
     COMBO(zslsh_combo, QK_BOOT),
