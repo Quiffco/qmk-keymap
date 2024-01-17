@@ -1,6 +1,6 @@
 #pragma once
 
-#define TAPPING_TERM 150
+#define TAPPING_TERM 180
 #define TAPPING_TERM_PER_KEY
 #define TAPPING_FORCE_HOLD
 #define TAPPING_FORCE_HOLD_PER_KEY
