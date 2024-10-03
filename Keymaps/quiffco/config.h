@@ -1,5 +1,7 @@
 #pragma once
 
+#define MASTER_RIGHT
+
 #define TAPPING_TERM 180
 #define TAPPING_TERM_PER_KEY
 #define TAPPING_FORCE_HOLD
